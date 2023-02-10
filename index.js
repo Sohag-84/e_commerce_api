@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const authRouter = require("./routes/auth");
 
 //Initializations
-const PORT = process.env.PORT || 8000;
+const PORT = 3000;
 //initialize expreess and save it in a variable
 const app = express();
 
